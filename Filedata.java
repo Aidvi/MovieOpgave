@@ -23,7 +23,7 @@ public class Filedata {
     public void printMovies() {
         for (int i = 0; i < this.movies.size(); i++) {
             Movie currentMovie = this.movies.get(i);
-            System.out.println(currentMovie.getTitle() + "," + currentMovie.getProductionYear() + "," + currentMovie.getMainActor() + "," + currentMovie.getSubActor());
+            System.out.println(currentMovie.getTitle() + " / " + currentMovie.getProductionYear() + " / " + currentMovie.getMainActor() + " / " + currentMovie.getSubActor());
         }
     }
 
